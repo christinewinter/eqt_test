@@ -10,7 +10,7 @@ PORTFOLIO_URL = 'https://eqtgroup.com/current-portfolio/'
 FUND_URL = 'https://eqtgroup.com/current-portfolio/funds'
 
 
-def get_divestment_list_from_url(url:str) -> list:
+def get_company_list_from_url(url:str) -> list:
     response = requests.get(url)
     soup = BeautifulSoup(response.text, 'html.parser')
 
@@ -21,6 +21,9 @@ def get_divestment_list_from_url(url:str) -> list:
         company_attributes = company.findAll('span', {'class': 'flex-1'})
         company_page_element = company.find('a')
         company_page = company_page_element['href'] if company_page_element else ""
+
+        exit_year = company_attributes[4].text if len(company_attributes) == 5 else ""
+
         company_dict = {
             "id": str(uuid.uuid1()),
             "company_name": company.find_next('span', {'class': "inline-block"}).text,
@@ -28,33 +31,7 @@ def get_divestment_list_from_url(url:str) -> list:
             "country": company_attributes[1].text,
             "fund": company_attributes[2].text,
             "entry_year": company_attributes[3].text,
-            "exit_year": company_attributes[4].text,  # gives error for portfolio since there is no exit defined
-            "company_page_path": company_page,
-            "timestamp": datetime.now().isoformat()
-        }
-        company_list.append(company_dict)
-
-    return company_list
-
-
-def get_portfolio_list_from_url(url:str) -> list:
-    response = requests.get(url)
-    soup = BeautifulSoup(response.text, 'html.parser')
-
-    list_elements = soup.find_all('li', {'class': 'flex-col'})
-    company_list = []
-
-    for company in list_elements:
-        company_attributes = company.findAll('span', {'class': 'flex-1'})
-        company_page_element = company.find('a')
-        company_page = company_page_element['href'] if company_page_element else ""
-        company_dict = {
-            "id": str(uuid.uuid1()),
-            "company_name": company.find_next('span', {'class': "inline-block"}).text,
-            "sector": company_attributes[0].text,
-            "country": company_attributes[1].text,
-            "fund": company_attributes[2].text,
-            "entry_year": company_attributes[3].text,
+            "exit_year": exit_year,
             "company_page_path": company_page,
             "timestamp": datetime.now().isoformat()
         }
@@ -94,11 +71,15 @@ def write_list_to_json(filename: str, company_list: list):
         json.dump(company_list, output_file, indent=2)
 
 
-divestment_list = get_divestment_list_from_url(DIVESTMENT_URL)
+# scrape data
+
+divestment_list = get_company_list_from_url(DIVESTMENT_URL)
 write_list_to_json("data/divestments.json", divestment_list)
 
-portfolio_list = get_portfolio_list_from_url(PORTFOLIO_URL)
+portfolio_list = get_company_list_from_url(PORTFOLIO_URL)
 write_list_to_json("data/portfolio.json", portfolio_list)
 
 fund_list = get_funds_list_from_url(FUND_URL)
 write_list_to_json("data/fund.json", fund_list)
+
+
