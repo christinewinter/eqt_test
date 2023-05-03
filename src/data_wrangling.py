@@ -2,14 +2,14 @@ import json
 import pandas as pd
 
 # Output file
-OUTPUT_FILENAME = "../data/enriched_portfolio.json"
+OUTPUT_FILENAME = "data/enriched_portfolio.json"
 
 # Read data from files
-DIVESTMENTS_PATH = "../data/divestments.json"
-FUNDS_PATH = "../data/fund.json"
-PORTFOLIO_PATH = "../data/portfolio.json"
-INTERVIEW_TEST_FUNDING_PATH = "../data/interview-test-funding.json"
-INTERVIEW_TEST_ORG_PATH = "../data/interview-test-org.json"
+DIVESTMENTS_PATH = "data/divestments.json"
+FUNDS_PATH = "data/fund.json"
+PORTFOLIO_PATH = "data/portfolio.json"
+INTERVIEW_TEST_FUNDING_PATH = "data/interview-test-funding.json"
+INTERVIEW_TEST_ORG_PATH = "data/interview-test-org.json"
 
 divestments_df = pd.read_json(DIVESTMENTS_PATH)
 funds_df = pd.read_json(FUNDS_PATH)
