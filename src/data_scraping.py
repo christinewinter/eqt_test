@@ -1,4 +1,3 @@
-import csv
 from datetime import datetime
 import json
 import requests
@@ -11,6 +10,11 @@ FUND_URL = 'https://eqtgroup.com/current-portfolio/funds'
 
 
 def get_company_list_from_url(url:str) -> list:
+    """
+    :param url: URL to scrape data from
+    :return company_list: contains company information from the table on the url website
+    """
+
     response = requests.get(url)
     soup = BeautifulSoup(response.text, 'html.parser')
 
@@ -41,6 +45,11 @@ def get_company_list_from_url(url:str) -> list:
 
 
 def get_funds_list_from_url(url: str) -> list:
+    """
+    :param url: URL to scrape data from
+    :return fund_list: contains fund information from the table on the url website
+    """
+
     response = requests.get(url)
     soup = BeautifulSoup(response.text, 'html.parser')
 
@@ -71,15 +80,14 @@ def write_list_to_json(filename: str, company_list: list):
         json.dump(company_list, output_file, indent=2)
 
 
-# scrape data
-
+# scrape and save data
 divestment_list = get_company_list_from_url(DIVESTMENT_URL)
-write_list_to_json("../data/divestments.json", divestment_list)
+write_list_to_json("data/divestments.json", divestment_list)
 
 portfolio_list = get_company_list_from_url(PORTFOLIO_URL)
-write_list_to_json("../data/portfolio.json", portfolio_list)
+write_list_to_json("data/portfolio.json", portfolio_list)
 
 fund_list = get_funds_list_from_url(FUND_URL)
-write_list_to_json("../data/fund.json", fund_list)
+write_list_to_json("data/fund.json", fund_list)
 
 
