@@ -1,0 +1,502 @@
+[
+  {
+    "id": "b787e016-e9d2-11ed-9a65-d63038a8d265",
+    "fund_name": "EQT IX",
+    "launch": "2020",
+    "size": "EUR 15.6 bn",
+    "status": "Active",
+    "sfdr_classification": "Art. 8",
+    "fund_page": "",
+    "timestamp": "2023-05-03T18:51:14.989302"
+  },
+  {
+    "id": "b787e5d4-e9d2-11ed-9a65-d63038a8d265",
+    "fund_name": "EQT Infrastructure II",
+    "launch": "2013",
+    "size": "EUR 1.938 bn",
+    "status": "Fully invested",
+    "sfdr_classification": "Art. 6",
+    "fund_page": "",
+    "timestamp": "2023-05-03T18:51:14.989444"
+  },
+  {
+    "id": "b787eb1a-e9d2-11ed-9a65-d63038a8d265",
+    "fund_name": "EQT Infrastructure III",
+    "launch": "2017",
+    "size": "EUR 4.041 bn",
+    "status": "Fully invested",
+    "sfdr_classification": "Art. 8",
+    "fund_page": "",
+    "timestamp": "2023-05-03T18:51:14.989573"
+  },
+  {
+    "id": "b787f01a-e9d2-11ed-9a65-d63038a8d265",
+    "fund_name": "EQT Infrastructure IV",
+    "launch": "2019",
+    "size": "EUR 9.1 bn",
+    "status": "Active",
+    "sfdr_classification": "Art. 8",
+    "fund_page": "",
+    "timestamp": "2023-05-03T18:51:14.989701"
+  },
+  {
+    "id": "b787f54c-e9d2-11ed-9a65-d63038a8d265",
+    "fund_name": "EQT Infrastructure V",
+    "launch": "2020",
+    "size": "EUR 15.7 bn",
+    "status": "Active",
+    "sfdr_classification": "Art. 8",
+    "fund_page": "",
+    "timestamp": "2023-05-03T18:51:14.989833"
+  },
+  {
+    "id": "b787fa24-e9d2-11ed-9a65-d63038a8d265",
+    "fund_name": "EQT Mid Market",
+    "launch": "2013",
+    "size": "EUR 1.054 bn",
+    "status": "Fully invested",
+    "sfdr_classification": "Art. 6",
+    "fund_page": "",
+    "timestamp": "2023-05-03T18:51:14.989960"
+  },
+  {
+    "id": "b787ff1a-e9d2-11ed-9a65-d63038a8d265",
+    "fund_name": "EQT Mid Market Asia III",
+    "launch": "2018",
+    "size": "USD 737 m",
+    "status": "Active",
+    "sfdr_classification": "Art. 8",
+    "fund_page": "",
+    "timestamp": "2023-05-03T18:51:14.990083"
+  },
+  {
+    "id": "b78803de-e9d2-11ed-9a65-d63038a8d265",
+    "fund_name": "EQT Mid Market Europe",
+    "launch": "2017",
+    "size": "EUR 1.616 bn",
+    "status": "Active",
+    "sfdr_classification": "Art. 8",
+    "fund_page": "",
+    "timestamp": "2023-05-03T18:51:14.990210"
+  },
+  {
+    "id": "b78808d4-e9d2-11ed-9a65-d63038a8d265",
+    "fund_name": "EQT Mid Market US",
+    "launch": "2016",
+    "size": "USD 695 m",
+    "status": "Fully invested",
+    "sfdr_classification": "Art. 8",
+    "fund_page": "",
+    "timestamp": "2023-05-03T18:51:14.990332"
+  },
+  {
+    "id": "b7880d98-e9d2-11ed-9a65-d63038a8d265",
+    "fund_name": "EQT Real Estate I",
+    "launch": "2017",
+    "size": "EUR 373 m",
+    "status": "Fully invested",
+    "sfdr_classification": "-",
+    "fund_page": "",
+    "timestamp": "2023-05-03T18:51:14.990454"
+  },
+  {
+    "id": "b7881252-e9d2-11ed-9a65-d63038a8d265",
+    "fund_name": "EQT Real Estate II",
+    "launch": "2018",
+    "size": "EUR 1 bn",
+    "status": "Active",
+    "sfdr_classification": "Art. 8",
+    "fund_page": "",
+    "timestamp": "2023-05-03T18:51:14.990575"
+  },
+  {
+    "id": "b7881716-e9d2-11ed-9a65-d63038a8d265",
+    "fund_name": "EQT VI",
+    "launch": "2011",
+    "size": "EUR 4.815 bn",
+    "status": "Fully invested",
+    "sfdr_classification": "Art. 6",
+    "fund_page": "",
+    "timestamp": "2023-05-03T18:51:14.990698"
+  },
+  {
+    "id": "b7881bda-e9d2-11ed-9a65-d63038a8d265",
+    "fund_name": "EQT VII",
+    "launch": "2015",
+    "size": "EUR 6.853 bn",
+    "status": "Fully invested",
+    "sfdr_classification": "Art. 8",
+    "fund_page": "",
+    "timestamp": "2023-05-03T18:51:14.990820"
+  },
+  {
+    "id": "b78820b2-e9d2-11ed-9a65-d63038a8d265",
+    "fund_name": "EQT VIII",
+    "launch": "2018",
+    "size": "EUR 10.91 bn",
+    "status": "Fully invested",
+    "sfdr_classification": "Art. 8",
+    "fund_page": "",
+    "timestamp": "2023-05-03T18:51:14.990943"
+  },
+  {
+    "id": "b78825e4-e9d2-11ed-9a65-d63038a8d265",
+    "fund_name": "EQT Ventures",
+    "launch": "2016",
+    "size": "EUR 505 m",
+    "status": "Fully invested",
+    "sfdr_classification": "Art. 8",
+    "fund_page": "",
+    "timestamp": "2023-05-03T18:51:14.991076"
+  },
+  {
+    "id": "b7882aa8-e9d2-11ed-9a65-d63038a8d265",
+    "fund_name": "EQT Ventures II",
+    "launch": "2019",
+    "size": "EUR 660 m",
+    "status": "Active",
+    "sfdr_classification": "Art. 8 ",
+    "fund_page": "",
+    "timestamp": "2023-05-03T18:51:14.991198"
+  },
+  {
+    "id": "b7882f62-e9d2-11ed-9a65-d63038a8d265",
+    "fund_name": "EQT Ventures III",
+    "launch": "2022",
+    "size": "EUR 1.1 bn",
+    "status": "Active",
+    "sfdr_classification": "Art. 8 ",
+    "fund_page": "",
+    "timestamp": "2023-05-03T18:51:14.991320"
+  },
+  {
+    "id": "b7883430-e9d2-11ed-9a65-d63038a8d265",
+    "fund_name": "LSP 7",
+    "launch": "2021",
+    "size": "EUR 1 bn",
+    "status": "Active",
+    "sfdr_classification": "Art. 8",
+    "fund_page": "",
+    "timestamp": "2023-05-03T18:51:14.991442"
+  },
+  {
+    "id": "b78838f4-e9d2-11ed-9a65-d63038a8d265",
+    "fund_name": "LSP Dementia",
+    "launch": "2020",
+    "size": "EUR 160 m",
+    "status": "Active",
+    "sfdr_classification": "Art. 8",
+    "fund_page": "",
+    "timestamp": "2023-05-03T18:51:14.991564"
+  },
+  {
+    "id": "b7883dcc-e9d2-11ed-9a65-d63038a8d265",
+    "fund_name": "LSP HEF 2",
+    "launch": "2018",
+    "size": "EUR 280 m",
+    "status": "Active",
+    "sfdr_classification": "Art. 8",
+    "fund_page": "",
+    "timestamp": "2023-05-03T18:51:14.991689"
+  },
+  {
+    "id": "b78842fe-e9d2-11ed-9a65-d63038a8d265",
+    "fund_name": "The Baring Asia Private Equity Fund II",
+    "launch": "2000",
+    "size": "USD 257 m",
+    "status": "Fully invested",
+    "sfdr_classification": "- ",
+    "fund_page": "",
+    "timestamp": "2023-05-03T18:51:14.991822"
+  },
+  {
+    "id": "b78847e0-e9d2-11ed-9a65-d63038a8d265",
+    "fund_name": "The Baring Asia Private Equity Fund III",
+    "launch": "2006",
+    "size": "USD 490 m",
+    "status": "Fully invested",
+    "sfdr_classification": "- ",
+    "fund_page": "",
+    "timestamp": "2023-05-03T18:51:14.991946"
+  },
+  {
+    "id": "b7884cd6-e9d2-11ed-9a65-d63038a8d265",
+    "fund_name": "The Baring Asia Private Equity Fund IV",
+    "launch": "2008",
+    "size": "USD 1.515 bn",
+    "status": "Fully invested",
+    "sfdr_classification": "-",
+    "fund_page": "",
+    "timestamp": "2023-05-03T18:51:14.992074"
+  },
+  {
+    "id": "b78851b8-e9d2-11ed-9a65-d63038a8d265",
+    "fund_name": "The Baring Asia Private Equity Fund V",
+    "launch": "2011",
+    "size": "USD 2.46 bn",
+    "status": "Fully invested",
+    "sfdr_classification": "- ",
+    "fund_page": "",
+    "timestamp": "2023-05-03T18:51:14.992199"
+  },
+  {
+    "id": "b78856ae-e9d2-11ed-9a65-d63038a8d265",
+    "fund_name": "The Baring Asia Private Equity Fund VI",
+    "launch": "2015",
+    "size": "USD 3.988 bn",
+    "status": "Fully invested",
+    "sfdr_classification": "-",
+    "fund_page": "",
+    "timestamp": "2023-05-03T18:51:14.992325"
+  },
+  {
+    "id": "b7885ba4-e9d2-11ed-9a65-d63038a8d265",
+    "fund_name": "The Baring Asia Private Equity Fund VII",
+    "launch": "2019",
+    "size": "USD 6.538 bn",
+    "status": "Fully invested",
+    "sfdr_classification": "-",
+    "fund_page": "",
+    "timestamp": "2023-05-03T18:51:14.992454"
+  },
+  {
+    "id": "b78860d6-e9d2-11ed-9a65-d63038a8d265",
+    "fund_name": "The Baring Asia Private Equity Fund VIII",
+    "launch": "2022",
+    "size": "USD 11.2 bn",
+    "status": "Active",
+    "sfdr_classification": "Art. 8",
+    "fund_page": "",
+    "timestamp": "2023-05-03T18:51:14.992585"
+  },
+  {
+    "id": "b78865c2-e9d2-11ed-9a65-d63038a8d265",
+    "fund_name": "Bioventures",
+    "launch": "2006",
+    "size": "EUR 84 m",
+    "status": "Realized",
+    "sfdr_classification": "- ",
+    "fund_page": "",
+    "timestamp": "2023-05-03T18:51:14.992711"
+  },
+  {
+    "id": "b7886afe-e9d2-11ed-9a65-d63038a8d265",
+    "fund_name": "EQT Credit I",
+    "launch": "2010",
+    "size": "EUR 321 m",
+    "status": "Realized",
+    "sfdr_classification": "-",
+    "fund_page": "",
+    "timestamp": "2023-05-03T18:51:14.992850"
+  },
+  {
+    "id": "b7886ff4-e9d2-11ed-9a65-d63038a8d265",
+    "fund_name": "EQT Credit II",
+    "launch": "2013",
+    "size": "EUR 845 m",
+    "status": "Realized",
+    "sfdr_classification": "-",
+    "fund_page": "",
+    "timestamp": "2023-05-03T18:51:14.992972"
+  },
+  {
+    "id": "b78874d6-e9d2-11ed-9a65-d63038a8d265",
+    "fund_name": "EQT Credit Opportunities III",
+    "launch": "2017",
+    "size": "EUR 1.272 bn",
+    "status": "Realized",
+    "sfdr_classification": "-",
+    "fund_page": "",
+    "timestamp": "2023-05-03T18:51:14.993097"
+  },
+  {
+    "id": "b788799a-e9d2-11ed-9a65-d63038a8d265",
+    "fund_name": "EQT Danmark",
+    "launch": "1998",
+    "size": "DKK 1 bn",
+    "status": "Realized",
+    "sfdr_classification": "-",
+    "fund_page": "",
+    "timestamp": "2023-05-03T18:51:14.993219"
+  },
+  {
+    "id": "b7887e72-e9d2-11ed-9a65-d63038a8d265",
+    "fund_name": "EQT Exp Capital I",
+    "launch": "2003",
+    "size": "EUR 189 m",
+    "status": "Realized",
+    "sfdr_classification": "-",
+    "fund_page": "",
+    "timestamp": "2023-05-03T18:51:14.993352"
+  },
+  {
+    "id": "b78883e0-e9d2-11ed-9a65-d63038a8d265",
+    "fund_name": "EQT Exp Capital II",
+    "launch": "2007",
+    "size": "EUR 474 m",
+    "status": "Realized",
+    "sfdr_classification": "-",
+    "fund_page": "",
+    "timestamp": "2023-05-03T18:51:14.993496"
+  },
+  {
+    "id": "b7888980-e9d2-11ed-9a65-d63038a8d265",
+    "fund_name": "EQT Finland",
+    "launch": "1999",
+    "size": "EUR 138 m",
+    "status": "Realized",
+    "sfdr_classification": "-",
+    "fund_page": "",
+    "timestamp": "2023-05-03T18:51:14.993630"
+  },
+  {
+    "id": "b7888f16-e9d2-11ed-9a65-d63038a8d265",
+    "fund_name": "EQT Greater China II",
+    "launch": "2006",
+    "size": "USD 535 m",
+    "status": "Realized",
+    "sfdr_classification": "-",
+    "fund_page": "",
+    "timestamp": "2023-05-03T18:51:14.993769"
+  },
+  {
+    "id": "b78893f8-e9d2-11ed-9a65-d63038a8d265",
+    "fund_name": "EQT I",
+    "launch": "1995",
+    "size": "SEK 3.2 bn",
+    "status": "Realized",
+    "sfdr_classification": "- ",
+    "fund_page": "",
+    "timestamp": "2023-05-03T18:51:14.993894"
+  },
+  {
+    "id": "b78898b2-e9d2-11ed-9a65-d63038a8d265",
+    "fund_name": "EQT II",
+    "launch": "1998",
+    "size": "SEK 6.2 bn",
+    "status": "Realized",
+    "sfdr_classification": "- ",
+    "fund_page": "",
+    "timestamp": "2023-05-03T18:51:14.994015"
+  },
+  {
+    "id": "b7889d76-e9d2-11ed-9a65-d63038a8d265",
+    "fund_name": "EQT III",
+    "launch": "2001",
+    "size": "EUR 2 bn",
+    "status": "Realized",
+    "sfdr_classification": "-",
+    "fund_page": "",
+    "timestamp": "2023-05-03T18:51:14.994137"
+  },
+  {
+    "id": "b788a23a-e9d2-11ed-9a65-d63038a8d265",
+    "fund_name": "EQT IV",
+    "launch": "2004",
+    "size": "EUR 2.5 bn",
+    "status": "Realized",
+    "sfdr_classification": "-",
+    "fund_page": "",
+    "timestamp": "2023-05-03T18:51:14.994259"
+  },
+  {
+    "id": "b788a76c-e9d2-11ed-9a65-d63038a8d265",
+    "fund_name": "EQT Infrastructure I",
+    "launch": "2008",
+    "size": "EUR 1.167 bn",
+    "status": "Realized",
+    "sfdr_classification": "-",
+    "fund_page": "",
+    "timestamp": "2023-05-03T18:51:14.994395"
+  },
+  {
+    "id": "b788ac58-e9d2-11ed-9a65-d63038a8d265",
+    "fund_name": "EQT Mid-Market Credit",
+    "launch": "2016",
+    "size": "EUR 530 m",
+    "status": "Realized",
+    "sfdr_classification": "-",
+    "fund_page": "",
+    "timestamp": "2023-05-03T18:51:14.994518"
+  },
+  {
+    "id": "b788b11c-e9d2-11ed-9a65-d63038a8d265",
+    "fund_name": "EQT Mid-Market Credit II",
+    "launch": "2017",
+    "size": "EUR 1.791 bn",
+    "status": "Realized",
+    "sfdr_classification": "-",
+    "fund_page": "",
+    "timestamp": "2023-05-03T18:51:14.994640"
+  },
+  {
+    "id": "b788b5ea-e9d2-11ed-9a65-d63038a8d265",
+    "fund_name": "EQT Opportunity",
+    "launch": "2006",
+    "size": "EUR 372 m",
+    "status": "Realized",
+    "sfdr_classification": "-",
+    "fund_page": "",
+    "timestamp": "2023-05-03T18:51:14.994762"
+  },
+  {
+    "id": "b788baa4-e9d2-11ed-9a65-d63038a8d265",
+    "fund_name": "EQT V",
+    "launch": "2006",
+    "size": "EUR 4.25 bn",
+    "status": "Realized",
+    "sfdr_classification": "-",
+    "fund_page": "",
+    "timestamp": "2023-05-03T18:51:14.994884"
+  },
+  {
+    "id": "b788bf68-e9d2-11ed-9a65-d63038a8d265",
+    "fund_name": "LSP 4",
+    "launch": "2008",
+    "size": "EUR 88 m",
+    "status": "Realized",
+    "sfdr_classification": "- ",
+    "fund_page": "",
+    "timestamp": "2023-05-03T18:51:14.995007"
+  },
+  {
+    "id": "b788c486-e9d2-11ed-9a65-d63038a8d265",
+    "fund_name": "LSP 5",
+    "launch": "2014",
+    "size": "EUR 250 m",
+    "status": "Realized",
+    "sfdr_classification": "- ",
+    "fund_page": "",
+    "timestamp": "2023-05-03T18:51:14.995137"
+  },
+  {
+    "id": "b788c99a-e9d2-11ed-9a65-d63038a8d265",
+    "fund_name": "LSP 6",
+    "launch": "2018",
+    "size": "EUR 550 m",
+    "status": "Realized",
+    "sfdr_classification": "-",
+    "fund_page": "",
+    "timestamp": "2023-05-03T18:51:14.995266"
+  },
+  {
+    "id": "b788ce86-e9d2-11ed-9a65-d63038a8d265",
+    "fund_name": "LSP HEF 1",
+    "launch": "2012",
+    "size": "EUR 112 m",
+    "status": "Realized",
+    "sfdr_classification": "- ",
+    "fund_page": "",
+    "timestamp": "2023-05-03T18:51:14.995393"
+  },
+  {
+    "id": "b788d37c-e9d2-11ed-9a65-d63038a8d265",
+    "fund_name": "The Baring Asia Private Equity Fund I ",
+    "launch": "1998",
+    "size": "USD 305 m",
+    "status": "Realized",
+    "sfdr_classification": "-",
+    "fund_page": "",
+    "timestamp": "2023-05-03T18:51:14.995520"
+  }
+]
