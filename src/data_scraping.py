@@ -74,12 +74,12 @@ def write_list_to_json(filename: str, company_list: list):
 # scrape data
 
 divestment_list = get_company_list_from_url(DIVESTMENT_URL)
-write_list_to_json("data/divestments.json", divestment_list)
+write_list_to_json("../data/divestments.json", divestment_list)
 
 portfolio_list = get_company_list_from_url(PORTFOLIO_URL)
-write_list_to_json("data/portfolio.json", portfolio_list)
+write_list_to_json("../data/portfolio.json", portfolio_list)
 
 fund_list = get_funds_list_from_url(FUND_URL)
-write_list_to_json("data/fund.json", fund_list)
+write_list_to_json("../data/fund.json", fund_list)
 
 
