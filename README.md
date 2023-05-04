@@ -11,7 +11,7 @@ To execute the pipeline, you need to:
 1) download the data for `interview-test-funding.json` and `interview-test-org.json`
 and save them under `data/`
 2) Set up a virtual environment under venv 
-3) Install python dependencies with `pip install -r requirements.txt
+3) Install python dependencies with `pip install -r requirements.txt`
 
 Then you can run the whole pipeline with `sh run.sh`
 
